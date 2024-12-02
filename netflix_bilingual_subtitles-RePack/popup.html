@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="resource/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <script src="resource/bootstrap/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container m-2">
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col text-center">
+              <img id="spinner" src="">
+            </div>
+          </div>
+          <div class="row pt-1">
+            <div class="col">
+              <div class="d-grid">
+                <button id="switch" class="btn btn-primary" type="button">
+              </div>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col">
+              <div class="d-grid">
+                <button id="login" class="btn btn-secondary" type="button">
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-grid">
+                <button id="logout" class="btn btn-secondary" type="button">
+              </div>
+            </div>
+          </div>
+          <div class="row py-2 small">
+            <div class="col">
+              <span id="prefix"></span>
+              <span id="status"></span>
+            </div>
+            <div class="col-auto">
+              <img id="refresh" src="image/icon/arrow-clockwise.svg">
+            </div>
+          </div>
+          <div class="row pt-2 border-top">
+            <p id="popup_shortcuts" class="fw-bold mb-2"></p>
+            <p class="small mb-2">
+              <span class="fw-bold">Q</span>
+              <span>-</span>
+              <span id="popup_shortcut_q"></span>
+            </p>
+            <p class="small mb-2">
+              <span class="fw-bold">E</span>
+              <span>-</span>
+              <span id="popup_shortcut_e"></span>
+            </p>
+            <p class="small mb-2">
+              <span class="fw-bold">A</span>
+              <span>-</span>
+              <span id="popup_shortcut_a"></span>
+            </p>
+            <p class="small mb-2">
+              <span class="fw-bold">S</span>
+              <span>-</span>
+              <span id="popup_shortcut_s"></span>
+            </p>
+            <p class="small mb-2">
+              <span class="fw-bold">D</span>
+              <span>-</span>
+              <span id="popup_shortcut_d"></span>
+            </p>
+            <p class="small mb-2">
+              <span class="fw-bold">Z</span>
+              <span>-</span>
+              <span id="popup_shortcut_z"></span>
+            </p>
+            <p class="small mb-2">
+              <span class="fw-bold">C</span>
+              <span>-</span>
+              <span id="popup_shortcut_c"></span>
+            </p>
+          </div>
+          <div class="row support">
+            <div class="col text-center">
+              <p id="popup_supportUsText" class="small mb-0">Support us on</p>
+              <a href="https://www.patreon.com/netflixsubs" target="_blank">
+                <img id="patreon-logo" src="image/patreon.png"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="second-col" class="col">
+          <div class="row mt-3">
+            <div class="col">
+              <p id="popup_mainSize" class="small mb-2">Font Size - Primary</p>
+              <input data-type="mainSize" type="range" step="0.1" min="0.5" max="1.5" value="1" class="slider">
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col">
+              <p id="popup_secondSize" class="small mb-2">Font Size - Secondary</p>
+              <input data-type="secondSize" type="range" step="0.1" min="0.5" max="1.5" value="1" class="slider">
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col">
+              <p id="popup_subY" class="small mb-2">Vertical Position</p>
+              <input data-type="subY" type="range" step="0.05" min="0" max="1" value="0.8" class="slider invert">
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col">
+              <p id="popup_spacing" class="small mb-2">Spacing</p>
+              <input data-type="space" type="range" step="0.001" min="0" max="0.015" value="0.005" class="slider">
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <p id="popup_imageBasedSubs" class="small mb-2">Image Based Subtitles</p>
+            </div>
+            <div class="col-auto">
+              <input id="checkbox_ibs" data-type="imageBasedSubs" type="checkbox">
+            </div>
+          </div>
+          <div class="row mt-2 d-none">
+            <div class="col">
+              <p id="popup_selectable" class="small mb-2">Selectable Subtitles</p>
+            </div>
+            <div class="col-auto">
+              <input id="checkbox_selectable" data-type="selectable" type="checkbox">
+            </div>
+          </div>
+          <div class="row mt-2 d-none">
+            <div class="col">
+              <p class="small mb-2">
+                <span id="popup_learning">Dictation Mode</span>
+              </p>
+            </div>
+            <div class="col-auto">
+              <input id="checkbox_learning" data-type="learning" type="checkbox">
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col">
+              <p class="small mb-2">
+                <span id="popup_translation">Translation Mode</span>
+              </p>
+            </div>
+            <div class="col-auto">
+              <input id="checkbox_translation" data-type="translationEnable" type="checkbox">
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col">
+              <p class="small mb-2">
+                <span id="popup_accessibility">Subtitle Reader: alt + w</span>
+                <span class="new">new</span>
+              </p>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <div class="d-grid">
+                <button id="popup_more_options" class="btn btn-outline-secondary" type="button"></button>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <div class="d-grid">
+                <button id="popup_needHelpText" class="btn btn-outline-secondary" type="button"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="small trial">
+        <div class="col">
+          <div id="popup_trialPeriod"></div>
+          <a id="popup_subscribe" href="" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="popup.min.js"></script>
+</html>

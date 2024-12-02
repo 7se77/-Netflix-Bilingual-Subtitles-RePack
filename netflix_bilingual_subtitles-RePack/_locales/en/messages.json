@@ -1,0 +1,581 @@
+{
+  "appName":{
+     "message":"Netflix Bilingual Subtitles"
+  },
+  "appDesc":{
+     "message":"Bilingual Subtitles for Netflix"
+  },
+  "web_mainMenuTitle":{
+     "message":"Subtitles"
+  },
+  "web_secondaryMenuTitle":{
+     "message":"Secondary Subtitles"
+  },
+  "web_downloadingMsg":{
+     "message":"Downloading Subtitle"
+  },
+  "web_errorMsg":{
+     "message":"Download Failed"
+  },
+  "web_completedMsg":{
+     "message":"Download Complete!"
+  },
+  "web_noSelectedSubtitle":{
+     "message":"Please select at least one subtitle"
+  },
+  "web_showPrimarySub":{
+     "message":"Show Primary Sub"
+  },
+  "web_hidePrimarySub":{
+     "message":"Hide Primary Sub"
+  },
+  "web_showSecondarySub":{
+     "message":"Show Secondary Sub"
+  },
+  "web_hideSecondarySub":{
+     "message":"Hide Secondary Sub"
+  },
+  "web_trialEnd":{
+     "message":"Your trial has expired"
+  },
+  "web_popup_title":{
+     "message":"Dictation Mode"
+  },
+  "web_popup_description":{
+     "message":"Enter subtitles to train your English skills"
+  },
+  "web_popup_shortcuts":{
+     "message":"Shortcuts"
+  },
+  "web_popup_repeat_key":{
+     "message":"Space"
+  },
+  "web_popup_repeat_desc":{
+     "message":"Repeat"
+  },
+  "web_popup_prev_key":{
+     "message":"-"
+  },
+  "web_popup_prev_desc":{
+     "message":"Previous"
+  },
+  "web_popup_next_key":{
+     "message":"="
+  },
+  "web_popup_next_desc":{
+     "message":"Next"
+  },
+  "web_popup_togglePrimary_key":{
+     "message":"]"
+  },
+  "web_popup_togglePrimary_desc":{
+     "message":"Toggle Primary Subtitles"
+  },
+  "web_popup_toggleSecondary_key":{
+     "message":"\\"
+  },
+  "web_popup_toggleSecondary_desc":{
+     "message":"Toggle Secondary Subtitles"
+  },
+  "web_popup_skip_word_key":{
+     "message":"["
+  },
+  "web_popup_skip_word_desc":{
+     "message":"Skip this character"
+  },
+  "web_popup_start":{
+     "message":"Click to start"
+  },
+  "web_popup_wordCount":{
+     "message":"(There are @ words in this unit)"
+  },
+  "web_popup_copy_previous_sub_ok":{
+     "message":"Copied"
+  },
+  "web_popup_copy_previous_sub_none":{
+     "message":"Cannot find the previous subtitle"
+  },
+  "web_popup_enable_playback_speed_main":{
+     "message":"Enable playback speed (Main)"
+  },
+  "web_popup_enable_playback_speed_secondary":{
+     "message":"Enable playback speed (Secondary)"
+  },
+  "web_popup_disable_playback_speed_main":{
+     "message":"Disable playback speed (Main)"
+  },
+  "web_popup_disable_playback_speed_secondary":{
+     "message":"Disable playback speed (Secondary)"
+  },
+  "web_editor_subtract_begin":{
+     "message":"subtract begin time"
+  },
+  "web_editor_add_begin":{
+     "message":"add begin time"
+  },
+  "web_editor_subtract_end":{
+     "message":"subtract end time"
+  },
+  "web_editor_add_end":{
+     "message":"add end time"
+  },
+  "web_editor_play":{
+     "message":"play"
+  },
+  "web_editor_reset":{
+     "message":"reset"
+  },
+  "web_editor_duplicate":{
+     "message":"duplicate"
+  },
+  "web_editor_remove":{
+     "message":"remove"
+  },
+  "web_editor_edit_text":{
+     "message":"click to edit"
+  },
+  "web_editor_add_time_variable":{
+     "message":"add time variable"
+  },
+  "web_editor_subtract_time_variable":{
+     "message":"subtract time variable"
+  },
+  "web_editor_download":{
+     "message":"download srt file"
+  },
+  "web_editor_upload":{
+     "message":"upload srt file"
+  },
+  "web_editor_mainSub":{
+     "message":"Primary subtitle"
+  },
+  "web_editor_secondarySub":{
+     "message":"Secondary subtitle"
+  },
+  "web_robot_ref":{
+     "message":"Current Reference:"
+  },
+  "web_robot_sending":{
+     "message":"Sending..."
+  },
+  "web_robot_new_prompt":{
+     "message":"New Prompt"
+  },
+  "web_robot_send_prompt":{
+     "message":"Send Prompt"
+  },
+  "web_robot_community":{
+     "message":"Community"
+  },
+  "web_robot_save_prompt":{
+     "message":"Save Prompt"
+  },
+  "web_robot_update_prompt":{
+     "message":"Update Prompt"
+  },
+  "web_robot_delete_prompt":{
+     "message":"Delete Prompt"
+  },
+  "web_robot_set_default_prompt":{
+     "message":"Set as default"
+  },
+  "web_robot_set_prompt_preview":{
+     "message":"Preview prompt"
+  },
+  "web_robot_save_prompt_title":{
+     "message":"Title"
+  },
+  "web_robot_save_prompt_description":{
+     "message":"Description"
+  },
+  "web_robot_save_prompt_username":{
+     "message":"Username"
+  },
+  "web_robot_save_prompt_public":{
+     "message":"Public"
+  },
+  "web_robot_sample_1_title":{
+     "message":"Brief explanation"
+  },
+  "web_robot_sample_2_title":{
+     "message":"Five examples"
+  },
+  "web_robot_sample_3_title":{
+   "message":"Dictionary"
+  },
+  "web_robot_hint":{
+     "message":"Reminder: You haven't referenced any words, please select any words from the captions first."
+  },
+  "web_translation_loading":{
+     "message":"Loading..."
+  },
+  "web_translation_failed":{
+     "message":"Failed"
+  },
+  "web_translation_mismatch":{
+     "message":"Failed (mismatch patterns)"
+  },
+  "web_translation_quota_limit_reached":{
+     "message":"Quota limit reached"
+  },
+  "web_translation_language_not_set":{
+     "message":"Please go to 'Options' to set the target language"
+  },
+  "web_translation_xslow":{
+     "message":"x-slow"
+  },
+  "web_translation_slow":{
+     "message":"slow"
+  },
+  "web_translation_medium":{
+     "message":"medium"
+  },
+  "web_translation_detail":{
+     "message":"More detailed."
+  },
+  "web_translation_examples":{
+     "message":"More examples."
+  },
+  "web_translation_prompt_hint":{
+     "message":"Create your own prompts"
+  },
+  "web_bookmark_uncategorized":{
+     "message":"Uncategorized"
+  },
+  "web_bookmark_create_deck":{
+     "message":"Create deck"
+  },
+  "web_bookmark_create_deck_placeholder":{
+     "message":"Please enter name here"
+  },
+  "web_bookmark_create_deck_submit":{
+     "message":"Submit"
+  },
+  "web_bookmark_create_deck_cancel":{
+     "message":"Cancel"
+  },
+  "web_bookmark_create_deck_duplicate":{
+     "message":"This name is already in use"
+  },
+  "web_bookmark_remove_deck":{
+     "message":"Remove deck"
+  },
+  "web_bookmark_update_card":{
+     "message":"Edit"
+  },
+  "web_bookmark_sort_createdAt_desc":{
+     "message":"Created At ↓"
+  },
+  "web_bookmark_sort_createdAt_asc":{
+     "message":"Created At ↑"
+  },
+  "web_bookmark_sort_updatedAt_desc":{
+     "message":"Updated At ↓"
+  },
+  "web_bookmark_sort_updatedAt_asc":{
+     "message":"Updated At ↑"
+  },
+  "web_bookmark_sort_nextReviewTime_desc":{
+     "message":"Next Review Time ↓"
+  },
+  "web_bookmark_sort_nextReviewTime_asc":{
+     "message":"Next Review Time ↑"
+  },
+  "web_bookmark_open_flashcard":{
+     "message":"Open Flash Card"
+  },
+  "web_bookmark_export_deck":{
+     "message":"Export deck"
+  },
+  "web_bookmark_export_deck_warning":{
+     "message":"Important: Your apkg file contains credentials for the related service, please do not share your apkg file with others."
+  },
+  "web_bookmark_embed_ai_prompts":{
+     "message":"Embed AI prompts"
+  },
+  "popup_bookmark_relogin":{
+     "message":"Please relogin to use this feature."
+  },
+  "popup_bookmark_member_only":{
+     "message":"Members-only feature"
+  },
+  "popup_switchOn":{
+     "message":"Running..."
+  },
+  "popup_switchOff":{
+     "message":"OFF"
+  },
+  "popup_login":{
+     "message":"Login"
+  },
+  "popup_logout":{
+     "message":"Logout"
+  },
+  "popup_prefix":{
+     "message":"Member Status:"
+  },
+  "popup_loading":{
+     "message":"Loading..."
+  },
+  "popup_logoutText":{
+     "message":"Logout"
+  },
+  "popup_active":{
+     "message":"Active"
+  },
+  "popup_inactive":{
+     "message":"Inactive"
+  },
+  "popup_trial":{
+     "message":"Trial"
+  },
+  "popup_failed":{
+     "message":"Failed"
+  },
+  "popup_overlay_login":{
+     "message":"Please log in to use all features"
+  },
+  "popup_overlay_sub":{
+     "message":"Please subscribe to use all features"
+  },
+  "popup_subY":{
+     "message":"Vertical Position"
+  },
+  "popup_mainSize":{
+     "message":"Font Size - Primary"
+  },
+  "popup_secondSize":{
+     "message":"Font Size - Secondary"
+  },
+  "popup_spacing":{
+     "message":"Spacing"
+  },
+  "popup_imageBasedSubs":{
+     "message":"Image Based Subtitles"
+  },
+  "popup_selectable":{
+     "message":"Make Subtitles Selectable"
+  },
+  "popup_more_options":{
+     "message":"Options"
+  },
+  "popup_translation":{
+     "message":"Learning Mode"
+  },
+  "popup_accessibility":{
+     "message":"Subtitle Reader: alt + w"
+  },
+  "popup_learning":{
+     "message":"Dictation Mode"
+  },
+  "popup_youtube":{
+     "message":"Listen and Repeat (Youtube)"
+  },
+  "popup_learning_howItWorks":{
+     "message":"how it works"
+  },
+  "popup_youtube_howItWorks":{
+     "message":"how it works"
+  },
+  "popup_reset":{
+     "message":"Reset"
+  },
+  "popup_shortcuts":{
+     "message":"Shortcuts"
+  },
+  "popup_shortcut_q":{
+     "message":"Slow down subtitle"
+  },
+  "popup_shortcut_e":{
+     "message":"Speed up subtitle"
+  },
+  "popup_shortcut_a":{
+     "message":"Previous subtitle"
+  },
+  "popup_shortcut_s":{
+     "message":"Repeat subtitle"
+  },
+  "popup_shortcut_d":{
+     "message":"Next subtitle"
+  },
+  "popup_shortcut_z":{
+     "message":"Toggle primary subtitle"
+  },
+  "popup_shortcut_c":{
+     "message":"Toggle secondary subtitle"
+  },
+  "popup_backgroundColorOpacity":{
+     "message":"Opacity - Background Color"
+  },
+  "popup_backgroundColor":{
+     "message":"Background Color"
+  },
+  "popup_fontColor":{
+     "message":"Font Color"
+  },
+  "popup_supportUsText":{
+     "message":"Support us on"
+  },
+  "popup_needHelpText":{
+     "message":"Need Help?"
+  },
+  "popup_goToOurPageText":{
+     "message":"Go to our page"
+  },
+  "popup_trialPeriod":{
+     "message":"Trial Period: 15 minutes"
+  },
+  "popup_subscribe":{
+     "message":"Subscribe"
+  },
+  "settings_title":{
+     "message":"Settings"
+  },
+  "settings_header":{
+     "message":"Settings"
+  },
+  "settings_enableShortcuts":{
+     "message":"Enable Shortcuts"
+  },
+  "settings_font_primary_header":{
+     "message":"Font - Primary"
+  },
+  "settings_font_secondary_header":{
+     "message":"Font - Secondary"
+  },
+  "settings_font_background_color":{
+     "message":"Background Color"
+  },
+  "settings_font_background_opacity":{
+     "message":"Background Opacity"
+  },
+  "settings_font_font_color":{
+     "message":"Font Color"
+  },
+  "settings_font_font_weight":{
+     "message":"Font Weight"
+  },
+  "settings_font_font_size":{
+     "message":"Font Size"
+  },
+  "settings_font_font_family":{
+     "message":"Font Style"
+  },
+  "settings_font_font_google_families":{
+     "message":"Google Fonts (Font families)"
+  },
+  "settings_font_font_google_css_properties":{
+     "message":"Google Fonts (CSS properties)"
+  },
+  "settings_learning_header":{
+     "message":"Dictation Mode (deprecated)"
+  },
+  "settings_youtube_header":{
+     "message":"Listen and Repeat (Youtube)"
+  },
+  "settings_youtube_progress":{
+     "message":"Saved Data"
+  },
+  "settings_learning_autoPlayNextSub":{
+     "message":"Auto play next subtitles"
+  },
+  "settings_learning_skipPatternWhoSpeak":{
+     "message":"Filtering out irrelevant words"
+  },
+  "settings_learning_playTypingSound":{
+     "message":"Play typing sound"
+  },
+  "settings_learning_secondsToDelay":{
+     "message":"Seconds to delay before going back to the beginning"
+  },
+  "settings_learning_ignoreCase":{
+     "message":"Ignore case"
+  },
+  "settings_learning_levelWords":{
+     "message":"Only include words (20,000 most common English words in order of frequency)"
+  },
+  "settings_other_header":{
+     "message":"Other features"
+  },
+  "settings_other_copy_previous_sub":{
+     "message":"Copy previous subtitle (Shortcut - X)"
+  },
+  "settings_other_enable_playback_speed_shortcut":{
+     "message":"Toggle playback speed (Shortcut - O (main) / P (second))"
+  },
+  "settings_other_ai_translation":{
+     "message":"Enable AI Translation (Beta)"
+  },
+  "settings_other_show_all_language_selections":{
+     "message":"Show all language selections (machine translation)"
+  },
+  "settings_other_use_backup_translation_service":{
+     "message":"Use backup service (machine translation)"
+  },
+  "settings_other_translation_engine":{
+     "message":"Translation Engine (machine translation)"
+  },
+  "settings_other_translation_engine_azure":{
+     "message":"Azure (member)"
+  },
+  "settings_other_translation_engine_deepl":{
+     "message":"DeepL (member)"
+  },
+  "settings_other_translation_languages":{
+     "message":"Translation Languages (hold down ctrl for multiple selection)"
+  },
+  "settings_subtitle_translation_header":{
+     "message":"Subtitle translation"
+  },
+  "settings_japanese_header":{
+     "message":"Japanese"
+  },
+  "settings_japanese_enable":{
+     "message":"Enable"
+  },
+  "settings_japanese_convert_to":{
+     "message":"Convert to"
+  },
+  "settings_japanese_mode":{
+     "message":"Mode"
+  },
+  "settings_japanese_romaji":{
+     "message":"Romaji System"
+  },
+  "settings_translation_header":{
+     "message":"Learning Mode"
+  },
+  "settings_translation_languages":{
+     "message":"Target Language"
+  },
+  "settings_text_segmentation":{
+     "message":"Enable Text Segmentation (Japanese / Chinese) - (Shortcut - W (Toggle))"
+  },
+  "settings_accessibility_header":{
+     "message":"Accessibility"
+  },
+  "settings_accessibility_shortcut":{
+     "message":"Shortcut to start Subtitle Reader: alt + w"
+  },
+  "settings_accessibility_note":{
+     "message":"Note: Some languages may not synthesize speech correctly if the speech rate is set too high. If you encounter this issue, please try lowering the rate."
+  },
+  "settings_accessibility_auto":{
+     "message":"Auto"
+  },
+  "settings_accessibility_voice":{
+     "message":"Voice (Auto)"
+  },
+  "settings_accessibility_rate":{
+     "message":"Speaking Rate (0)"
+  },
+  "settings_accessibility_volume":{
+     "message":"Volume (0)"
+  },
+  "login_login":{
+     "message":"Sign in with Patreon"
+  },
+  "login_ok":{
+     "message":"Login Successful"
+  }
+}

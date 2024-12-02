@@ -1,0 +1,305 @@
+.hideSub {
+  display: none!important;
+}
+
+.textBasedSub {
+  display: block;
+  white-space: nowrap;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  height: auto;
+  font-size: 25px;
+  line-height: normal;
+  font-weight: normal;
+  color: #ffffff;
+  text-shadow: #000000 0px 0px 7px;
+  font-family: Netflix Sans,Helvetica Nueue,Helvetica,Arial,sans-serif;
+  font-weight: bolder;
+  width: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.hoverable:hover {
+  opacity: 60%;
+}
+
+.selectable {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+.vContainer {
+  position: absolute;
+  width: fit-content;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.hContainer {
+  position: absolute;
+  width: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#subs_popUp > p {
+  margin: auto;
+  line-height: normal;
+  font-weight: normal;
+  color: #ffffff;
+  text-shadow: #000000 0px 0px 7px;
+  font-family: Netflix Sans,Helvetica Nueue,Helvetica,Arial,sans-serif;
+  font-weight: bolder;
+}
+
+#editor {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  user-select: text;
+  cursor: auto;
+
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: 1rem;
+
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 95%;
+}
+
+#editor > div {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(38, 38, 38);
+  position: relative;
+}
+
+#editor > div > textarea {
+  width: 100%;
+  background-color: #141414;
+  font-size: 2rem;
+  resize: none;
+}
+
+#editor > div > div > img {
+  width: 2.5rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.item-id {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.5rem;
+}
+
+#editor-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 100%;
+  height: 5%;
+}
+
+#editor-bar > div > img {
+  height: 60%;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+#editor-bar > div {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#editor-bar > select, .bookmark-select {
+  color: white;
+  background-color: transparent;
+  height: 100%;
+  border-width: 0px;
+  font-size: 2rem;
+}
+
+#editor-bar > select > option, .bookmark-select > option {
+  color: black;
+}
+
+#editor-container {
+  position: absolute;
+  right: 0;
+  width: 30%;
+  height: 100%;
+}
+
+#editor-slider {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  cursor: ew-resize;
+}
+
+#editor-slider-detect {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  cursor: ew-resize;
+}
+
+#editor-popup {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: fit-content;
+  background-color: rgb(38, 38, 38);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 2.2rem;
+  border-radius: 3px;
+}
+
+#robot {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  user-select: text;
+  cursor: auto;
+
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 95%;
+}
+
+#robot-prompt-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#robot-prompt {
+  position: absolute;
+  bottom: 15px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: groove;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+#robot-prompt-send {
+  width: 23px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#robot-prompt-textarea {
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+  margin: 5px;
+  padding-left: 1rem;
+  resize: none;
+  background-color: black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-width: 0px;
+  max-height: 20%;
+  scrollbar-width: none;
+}
+
+#robot-prompt-textarea:focus {
+  outline:none;
+}
+
+#robot-prompt-main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#robot-prompt-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-height: 95%;
+  overflow: overlay;
+  width: 95%;
+}
+
+#robot-prompt-preview {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  overflow: auto;
+  white-space: initial;
+  word-wrap: break-word;
+  width: 95%;
+}
+
+.robot-prompt-container-block {
+  margin-bottom: 1.5rem;
+}
+
+.robot-prompt-container-block-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.robot-prompt-container-block-date {
+  font-size: small;
+}
+
+.robot-prompt-container-block-content {
+  font-size: medium;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+
+.robot-prompt-container-block-content > a {
+  color: dodgerblue;
+}
+
+/* https://www.w3schools.com/howto/howto_css_loader.asp */
+.loader {
+  border: 1px solid #f3f3f3; /* Light grey */
+  border-top: 1px solid #ff3232; /* Blue */
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

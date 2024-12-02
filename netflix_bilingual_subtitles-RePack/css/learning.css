@@ -1,0 +1,84 @@
+.watch-video--evidence-overlay-container {
+  display: none!important;
+}
+
+#learning-overlay {
+  background-color: rgb(0 0 0 / 50%);
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.learning-overlay-inner {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  padding: 12%;
+  position: relative;
+  user-select: none;
+}
+
+.learning-overlay-inner-h2 {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 5.4rem;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.learning-overlay-inner-h3 {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.4rem;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  margin-top: 2.4rem;
+}
+
+.learning-overlay-inner-h4 {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.4rem;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 0.4rem;
+}
+
+.learning-overlay-inner-p {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(204, 204, 204);
+  font-weight: normal;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.learning-overlay-inner-span {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(204, 204, 204);
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.learning-overlay-inner-p-span-key {
+  font-weight: bold;
+  color: white;
+  margin-right: 1rem;
+}
+
+.learning-overlay-inner-p-span-desc {
+  margin-left: 1rem;
+}

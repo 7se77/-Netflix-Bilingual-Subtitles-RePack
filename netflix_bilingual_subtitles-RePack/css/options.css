@@ -1,0 +1,14 @@
+.invert {
+  direction: rtl;
+}
+
+.translation-languages {
+  min-height: 250px;
+}
+
+.new {
+  color: red;
+  margin-left: 5px;
+  font-weight: bolder;
+  font-size: 0.85rem;
+}

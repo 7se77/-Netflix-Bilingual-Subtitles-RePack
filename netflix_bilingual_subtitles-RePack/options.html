@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/options.css">
+    <link rel="stylesheet" href="resource/bootstrap/bootstrap.min.css">
+    <script src="resource/bootstrap/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <div class="container m-3">
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_header fw-bold mb-2 mt-2"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_enableShortcuts mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="enableShortcuts" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="popup_subY mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="subY" type="range" step="0.05" min="0" max="1" value="0.8" class="form-range invert">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="popup_spacing mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="space" type="range" step="0.001" min="0" max="0.015" value="0.005" class="form-range">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="popup_imageBasedSubs mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="imageBasedSubs" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="popup_selectable mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="selectable" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_learning_header mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="learning" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3 border-top pt-1">
+      <div class="col">
+        <p class="settings_font_primary_header fw-bold mb-0 mt-2"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_family mb-0"></p>
+      </div>
+      <div class="col">
+        <select data-type="mainFamily" class="form-select"></select>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_google_families mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="mainGoogleFamilies" class="form-control google-families" type="text">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_google_css_properties mb-0"></p>
+      </div>
+      <div class="col">
+        <textarea data-type="mainGoogleCssProperties" class="form-control google-css-properties" type="text"></textarea>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_size mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="mainSize" type="range" step="0.1" min="0.5" max="1.5" value="1" class="form-range">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_weight mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="mainWeight" type="range" step="100" min="100" max="900" value="400" class="form-range">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_color mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="mainColor" type="color" class="form-control form-control-color" value="#000000">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_background_color mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="mainBackgroundColor" type="color" class="form-control form-control-color" value="#000000">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_background_opacity mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="mainBackgroundColorOpacity" type="range" step="0.1" min="0" max="1" value="0" class="form-range">
+      </div>
+    </div>
+    <div class="row align-items-center my-3 border-top pt-1">
+      <div class="col">
+        <p class="settings_font_secondary_header fw-bold mb-0 mt-2"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_family mb-0"></p>
+      </div>
+      <div class="col">
+        <select data-type="secondFamily" class="form-select"></select>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_google_families mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="secondGoogleFamilies" class="form-control google-families" type="text">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_google_css_properties mb-0"></p>
+      </div>
+      <div class="col">
+        <textarea data-type="secondGoogleCssProperties" class="form-control google-css-properties" type="text"></textarea>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_size mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="secondSize" type="range" step="0.1" min="0.5" max="1.5" value="1" class="form-range">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_weight mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="secondWeight" type="range" step="100" min="100" max="900" value="400" class="form-range">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_font_color mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="secondColor" type="color" class="form-control form-control-color" value="#000000">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_background_color mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="secondBackgroundColor" type="color" class="form-control form-control-color" value="#000000">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_font_background_opacity mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="secondBackgroundColorOpacity" type="range" step="0.1" min="0" max="1" value="0" class="form-range">
+      </div>
+    </div>
+
+    <!--
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <div class="d-grid">
+          <button id="login" class="btn btn-secondary popup_login" type="button">
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-grid">
+          <button id="logout" class="btn btn-secondary popup_logout" type="button">
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <span id="prefix" class="popup_prefix"></span>
+        <span id="status" class="popup_loading"></span>
+      </div>
+      <div class="col-auto">
+        <img id="refresh" src="image/icon/arrow-clockwise.svg">
+      </div>
+    </div>
+    <div class="row align-items-center my-3 border-top pt-1">
+      <div class="col">
+        <p class="settings_youtube_header fw-bold mb-0 mt-2"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <div class="d-grid">
+          <a class="settings_youtube_progress" href="youtube/options.html" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+    -->
+    <div class="row align-items-center my-3 border-top pt-1">
+      <div class="col">
+        <p class="settings_subtitle_translation_header fw-bold mb-0 mt-2"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_other_ai_translation mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="enableAiTranslation" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_other_translation_engine mb-0"></p>
+      </div>
+      <div class="col">
+        <select data-type="translationEngine" class="form-select">
+          <option value="google">Google</option>
+          <option class="settings_other_translation_engine_azure" value="azure">Azure (Member)</option>
+          <option class="settings_other_translation_engine_deepl" value="deepl">DeepL (Member)</option>
+        </select>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_other_translation_languages mb-0"></p>
+      </div>
+      <div class="col">
+        <select data-type="selectedTranslationLanguages" multiple class="form-select translation-languages"></select>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_other_show_all_language_selections mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="showAllLangSelections" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+
+    <div class="row align-items-center my-3 border-top pt-1">
+      <div class="col">
+        <p class="settings_translation_header fw-bold mb-0 mt-2"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_japanese_enable mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="translationEnable" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_translation_languages mb-0"></p>
+      </div>
+      <div class="col">
+        <select id="translation" data-type="translationLanguage" class="form-select">
+          <!-- <option value="">select one language</option> -->
+        </select>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_text_segmentation mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="enableTextSegmentation" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+
+    <div class="row align-items-center my-3 border-top pt-1">
+      <div class="col">
+        <p class="settings_japanese_header fw-bold mb-0 mt-2"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_japanese_enable mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="japaneseEnable" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_japanese_convert_to mb-0"></p>
+      </div>
+      <div class="col">
+        <select data-type="japaneseConvertTo" class="form-select">
+          <option value="hiragana">Hiragana</option>
+          <option value="katakana">Katakana</option>
+          <option value="romaji">Romaji</option>
+        </select>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_japanese_mode mb-0"></p>
+      </div>
+      <div class="col">
+        <select data-type="japaneseMode" class="form-select">
+          <option value="normal">Normal</option>
+          <option value="spaced">Spaced</option>
+          <option value="okurigana">Okurigana</option>
+          <option value="furigana">Furigana</option>
+        </select>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_japanese_romaji mb-0"></p>
+      </div>
+      <div class="col">
+        <select data-type="japaneseRomaji" class="form-select">
+          <option value="nippon">Nippon</option>
+          <option value="passport">Passport</option>
+          <option value="hepburn">Hepburn</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row align-items-center my-3 border-top pt-1">
+      <div class="col">
+        <p class="fw-bold mb-0 mt-2">
+          <span class="settings_accessibility_header"></span>
+          <span class="new">beta</span>
+        </p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_accessibility_shortcut mb-0"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_accessibility_note fst-italic mb-0"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_accessibility_voice mb-0"></p>
+      </div>
+      <div class="col">
+        <select data-type="accessibilityVoice" class="form-select">
+          <option class="settings_accessibility_auto" value=""></option>
+        </select>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_accessibility_rate mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="accessibilityRate" type="range" step="0.1" min="0.5" max="10" value="1" class="form-range" aria-label="Speaking Rate">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_accessibility_volume mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="accessibilityVolume" type="range" step="0.1" min="0.1" max="1" value="1" class="form-range" aria-label="Volume">
+      </div>
+    </div>
+
+    <div class="row align-items-center my-3 border-top pt-1">
+      <div class="col">
+        <p class="settings_learning_header fw-bold mb-0 mt-2"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_learning_autoPlayNextSub mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="autoPlayNextSub" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_learning_skipPatternWhoSpeak mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="skipPatternWhoSpeak" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_learning_playTypingSound mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="playTypingSound" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_learning_secondsToDelay mb-0"></p>
+      </div>
+      <div class="col">
+        <input type="number" data-type="secondsToDelay" class="form-control" min="0" max="2">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_learning_ignoreCase mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="ignoreCase" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_learning_levelWords mb-0"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="mb-0">1 ~ 5000</p>
+      </div>
+      <div class="col">
+        <input data-type="levelOneWords" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="mb-0">5001 ~ 10000</p>
+      </div>
+      <div class="col">
+        <input data-type="levelTwoWords" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="mb-0">10001 ~ 15000</p>
+      </div>
+      <div class="col">
+        <input data-type="levelThreeWords" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="mb-0">15001 ~ 20000</p>
+      </div>
+      <div class="col">
+        <input data-type="levelFourWords" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+
+    <div class="row align-items-center my-3 border-top pt-1">
+      <div class="col">
+        <p class="settings_other_header fw-bold mb-0 mt-2"></p>
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_other_copy_previous_sub mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="copyPreviousSubShortcut" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="settings_other_enable_playback_speed_shortcut mb-0"></p>
+      </div>
+      <div class="col">
+        <input data-type="playbackSpeedShortcut" class="form-check-input" type="checkbox">
+      </div>
+    </div>
+    <div class="row align-items-center my-3">
+      <div class="col">
+        <p class="mb-0">DEBUG</p>
+      </div>
+      <div class="col">
+        <input id="debugInput" class="form-control" type="text">
+      </div>
+    </div>
+
+    <div class="row align-items-center my-3 border-top pt-3">
+      <div class="col d-flex flex-row-reverse">
+        <button class="popup_reset btn btn-outline-secondary" type="button"></button>
+      </div>
+    </div>
+  </div>
+  <script src="options.min.js"></script>
+  </body>
+</html>
